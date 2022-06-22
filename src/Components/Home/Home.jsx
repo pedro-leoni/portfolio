@@ -24,12 +24,10 @@ const Home = () => {
       <Box id="Proyectos" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
         <Proyectos />
       </Box>
-      <Divider />
-      <Box id="Contactame" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="100vh">
+      <Box id="Contactame" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
         <Contactame />
       </Box>
-      <Box>
-        <Divider />
+      <Box id="Footer" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto" >
         <Footer />
       </Box>
     </Box>

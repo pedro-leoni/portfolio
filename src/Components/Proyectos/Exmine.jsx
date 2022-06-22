@@ -11,8 +11,6 @@ const Exmine = () => {
         as="h5"
         pt={5}
         color="textColor"
-        borderBottom="1px"
-        borderColor="detailsSecondary"
       >
         Exmine
       </Heading>

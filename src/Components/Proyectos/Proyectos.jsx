@@ -18,8 +18,6 @@ const Proyectos = () => {
           size="2xl"
           pt={5}
           color="textColor"
-          borderBottom="1px"
-          borderColor="detailsSecondary"
         >
           Mis Trabajos
         </Heading>

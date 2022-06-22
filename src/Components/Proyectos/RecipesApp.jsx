@@ -11,8 +11,6 @@ const RecipesApp = () => {
         as="h5"
         pt={5}
         color="textColor"
-        borderBottom="1px"
-        borderColor="detailsSecondary"
       >
         Recipes App
       </Heading>

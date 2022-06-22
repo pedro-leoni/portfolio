@@ -19,8 +19,6 @@ const Tecnologias = () => {
             size="2xl"
             pt={5}
             color="textColor"
-            borderBottom="1px"
-            borderColor="detailsSecondary"
           >
             Tecnologias
           </Heading>

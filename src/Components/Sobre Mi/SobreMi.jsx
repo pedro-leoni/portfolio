@@ -16,8 +16,6 @@ const SobreMi = () => {
           size="2xl"
           pt={5}
           color="textColor"
-          borderBottom="1px"
-          borderColor="detailsSecondary"
         >
           Sobre Mi
         </Heading>
