@@ -30,7 +30,7 @@ const SobreMi = () => {
           todo y eso me motiva a estar en un proceso de aprendizaje constante.
           <br />
           <br />
-          Tambien estudie mas de 700 horas en Soy Henry con el objetivo de
+          Estudie mas de 800 horas en Soy Henry con el objetivo de
           obtener mi titulo de desarrollador full stack
         </Text>
       </Box>

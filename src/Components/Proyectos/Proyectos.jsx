@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Text, Heading } from "@chakra-ui/react";
 import RecipesApp from "./RecipesApp";
+import Exmine from "./Exmine";
 
 const Proyectos = () => {
   return (
@@ -22,7 +23,10 @@ const Proyectos = () => {
         >
           Mis Trabajos
         </Heading>
-        <RecipesApp/>
+        <Box mt={10} mb={10}>
+          <RecipesApp/>
+          <Exmine/>
+        </Box>
       </Box>
     </Box>
   );

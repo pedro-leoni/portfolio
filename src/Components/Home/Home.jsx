@@ -21,7 +21,7 @@ const Home = () => {
       <Box id="Tecnologias" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
         <Tecnologias />
       </Box>
-      <Box id="Proyectos" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="100vh">
+      <Box id="Proyectos" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
         <Proyectos />
       </Box>
       <Divider />
