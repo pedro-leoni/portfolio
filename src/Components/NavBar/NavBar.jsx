@@ -11,6 +11,7 @@ const NavBar = () => {
         borderBottom="1px"
         position="fixed"
         top={0}
+        zIndex={1000}
         bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
         p={4}
         pl="50%"

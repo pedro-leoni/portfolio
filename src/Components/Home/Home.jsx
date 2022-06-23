@@ -16,6 +16,9 @@ const Home = () => {
         <Hola />
       </Box>
       <Box bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto" >
+      <Box pl='30vw' pr='30vw' pb="10vh">
+        <Divider />
+    </Box>
         <SobreMi />
       </Box>
       <Box id="Tecnologias" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
