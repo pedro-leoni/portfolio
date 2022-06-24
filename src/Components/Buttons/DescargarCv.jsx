@@ -5,7 +5,7 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 const DescargarCv = () => {
   return (
     <Link
-      href="https://drive.google.com/file/d/1-PunNvdFMmc43fOGkEMYyerjHSEuELLR/view?usp=sharing"
+      href="https://drive.google.com/file/d/1tsTSmTj_eNvZfI9uVK-6MYpD_9aJy_NF/view?usp=sharing"
       target="_blank"
       _hover={{ color: "detailsPrimary", textDecoration:'none'}}
     >

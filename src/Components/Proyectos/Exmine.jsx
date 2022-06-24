@@ -6,7 +6,7 @@ import { Github } from "@icons-pack/react-simple-icons"
 
 const Exmine = () => {
   return (
-    <Box border="1px" display="flex" flexDirection="column" alignItems="center" mt={5}>
+    <Box border="1px" display="flex" flexDirection="column" alignItems="center" mt={5} width='auto'>
       <Heading
         as="h5"
         pt={5}
@@ -14,8 +14,8 @@ const Exmine = () => {
       >
         Exmine
       </Heading>
-      <Box display="flex">
-        <Image boxSize="300px" m={2} p={2} src={imagen} objectFit="cover" />
+      <Box display="flex" overflow='auto'>
+        <Image boxSize="250px" m={2} p={2} src={imagen} objectFit="cover" />
         <Box
           display="flex"
           flexDirection="column"

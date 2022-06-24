@@ -55,7 +55,7 @@ const Footer = () => {
       </Box>
       <Box>
         <Text  p={3}>
-          Todos los derechos reservados Copyright © Pedro Leoni 2022.
+          Todos los derechos reservados © Pedro Leoni 2022.
         </Text>
       </Box>
     </Box>

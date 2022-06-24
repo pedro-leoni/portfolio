@@ -14,7 +14,7 @@ const RecipesApp = () => {
       >
         Recipes App
       </Heading>
-      <Box display="flex">
+      <Box display="flex" overflow='auto'>
         <Image boxSize="300px" m={2} p={2} src={imagen} objectFit="cover" />
         <Box
           display="flex"

@@ -1,11 +1,11 @@
 import React from "react";
-import { Box, Text, Link, Divider } from "@chakra-ui/react";
+import { Box, Text, Link, Divider, useBreakpointValue } from "@chakra-ui/react";
 
 const NavBar = () => {
   return (
     <Box>
       <Box
-        display="flex"
+        display='flex'
         textAlign="center"
         justifyContent="space-evenly"
         borderBottom="1px"
@@ -14,8 +14,8 @@ const NavBar = () => {
         zIndex={1000}
         bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
         p={4}
-        pl="50%"
-        w="100%"
+        pl={"50%"}
+        w="100vw"
       >
         <Link href="#SobreMi" _hover={{textDecoration:'none'}}>
           <Text color="textColor" _hover={{ color: "detailsPrimary"}}>
