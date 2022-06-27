@@ -15,7 +15,7 @@ const NavBar = () => {
         zIndex={1000}
         bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
         p={4}
-        pl={"50%"}
+        pl={[4,'50%']}
         w="100vw"
       >
         <Link href="#SobreMi" _hover={{textDecoration:'none'}}>

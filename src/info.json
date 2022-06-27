@@ -1,0 +1,22 @@
+{
+    "jobs":[
+        {
+            "name":"Exmine",
+            "textToCard":"Ecommerce de insumos para criptomonedas",
+            "roleAndInstitution":"Proyecto Final - Soy Henry",
+            "description":"",
+            "frontEndTech":"",
+            "backEndTech":"",
+            "dbAndORM":"",
+            "technologiesIcons":"",
+            "linkToPage":"",
+            "linkToRepo":"",
+            "linkToDemo":"",
+            "cardImg":"",
+            "detailImgs":""
+        },
+        {
+
+        }
+    ]
+}
