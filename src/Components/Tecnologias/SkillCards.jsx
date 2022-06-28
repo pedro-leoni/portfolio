@@ -15,7 +15,8 @@ import {
   Git,
   Gnubash,
   Javascript,
-  Sequelize
+  Sequelize,
+  Github
 } from "@icons-pack/react-simple-icons";
 
 const SkillCards = () => {
@@ -34,6 +35,7 @@ const SkillCards = () => {
     <SkillCard Icon={Sequelize} text={'Sequelize'}/>
     <SkillCard Icon={Postgresql} text={'PostgreSQL'}/>
     <SkillCard Icon={Git} text={'Git'}/>
+    <SkillCard Icon={Github} text={'Github'}/>
     <SkillCard Icon={Gnubash} text={'Bash'}/>
   </Box>);
 };

@@ -1,22 +1,92 @@
 {
-    "jobs":[
-        {
-            "name":"Exmine",
-            "textToCard":"Ecommerce de insumos para criptomonedas",
-            "roleAndInstitution":"Proyecto Final - Soy Henry",
-            "description":"",
-            "frontEndTech":"",
-            "backEndTech":"",
-            "dbAndORM":"",
-            "technologiesIcons":"",
-            "linkToPage":"",
-            "linkToRepo":"",
-            "linkToDemo":"",
-            "cardImg":"",
-            "detailImgs":""
-        },
-        {
-
-        }
-    ]
+  "jobs": [
+    {
+      "id": 1,
+      "name": "Recipes App",
+      "shortDescription": "SPA - Proyecto Individual Academico (SoyHenry)",
+      "description": "Single Page Aplication que permite ver recetas traidas de una api, ordenarlas, filtrarlas y crear nuevas que se almacenaran en nuestra base de datos.",
+      "frontEndTech": ["React", "Redux", "CSS"],
+      "backEndTech": ["NodeJs", "Express"],
+      "dbAndORM": ["PostgreSQL", "Sequelize"],
+      "otherTechs": [""],
+      "technologiesIcons": [
+        "Javascript",
+        "Html5",
+        "CssThree",
+        "ReactJs",
+        "Redux",
+        "Nodedotjs",
+        "Express",
+        "Postgresql",
+        "Sequelize"
+      ],
+      "linkToPage": "https://pi-food-zeta.vercel.app/",
+      "linkToRepo": "https://github.com/pedro-leoni/PI-Food",
+      "linkToDemo": "",
+      "cardImg": "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430594/portfolio/Recipes%20App/RecipesApp1_fktdxe.png",
+      "imgsGalery": [
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430594/portfolio/Recipes%20App/RecipesApp1_fktdxe.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430597/portfolio/Recipes%20App/RecipesApp_ztffm0.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430599/portfolio/Recipes%20App/RecipesApp2_ks86c3.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430602/portfolio/Recipes%20App/RecipesApp3_qx99nv.png"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Exmine",
+      "shortDescription": "Ecommerce - Proyecto Final Academico (Soy Henry)",
+      "description": "Exmine es una ecommerce dedicada a la venta de insumos para la mineria de criptomonedas. Cuenta con un sistema de creacion de cuentas/login autenticado con JWT, envio de mails, un carrito de compras, una pasarela de pago con Stripe, un sistema de roles y un panel de administracion muy completo que permite cambiar detalles del producto, stock, precios, aplicar descuentos y tambien gestionar usuarios, entre otras varias funcionalidades.",
+      "frontEndTech": ["React", "Redux", "Material UI", "Formik", "Sweetalert"],
+      "backEndTech": ["NodeJs", "Express", "Nodemailer", "Multer"],
+      "dbAndORM": ["PostgreSQL", "Sequelize"],
+      "otherTechs": ["JWT", "Git", "Github"],
+      "technologiesIcons": [
+        "Javascript",
+        "Html5",
+        "ReactJs",
+        "Redux",
+        "Mui",
+        "Nodedotjs",
+        "Express",
+        "Postgresql",
+        "Sequelize",
+        "Git",
+        "Github"
+      ],
+      "linkToPage": "https://final-project-beryl.vercel.app/",
+      "linkToRepo": "https://github.com/pedro-leoni/Exmine",
+      "linkToDemo": "https://vimeo.com/719112521",
+      "cardImg": "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430627/portfolio/Exmine/Exmine_maj0dm.png",
+      "imgsGalery": [
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430627/portfolio/Exmine/Exmine_maj0dm.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430626/portfolio/Exmine/Exmine3_ig3h9e.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430626/portfolio/Exmine/Exmine4_cdeqxe.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430626/portfolio/Exmine/Exmine5_wjxugr.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430626/portfolio/Exmine/Exmine2_zvy7su.png",
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430625/portfolio/Exmine/Exmine6_dm5hfu.png"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Portfolio",
+      "shortDescription": "SPA",
+      "description": "Este portfolio esta realizado desde 0 por mi, a medida que aprendo cosas nuevas intento volcarlas en esta pagina, espero te guste!",
+      "frontEndTech": ["React","Redux Toolkit","ChakraUI"],
+      "backEndTech": [""],
+      "dbAndORM": [""],
+      "otherTechs": ["Agregar librerias que use"],
+      "technologiesIcons": [
+        "Javascript",
+        "Html5",
+        "ReactJs",
+        "Redux",
+        "Chakraui"
+    ],
+      "linkToPage": "https://github.com/pedro-leoni/portfolio",
+      "linkToRepo": "https://github.com/pedro-leoni/portfolio",
+      "linkToDemo": "",
+      "cardImg": "https://revistathc.com/wp-content/uploads/2020/05/WhatsApp-Image-2021-06-22-at-12.17.02-e1624375085368.jpeg",
+      "imgsGalery": ["https://revistathc.com/wp-content/uploads/2020/05/WhatsApp-Image-2021-06-22-at-12.17.02-e1624375085368.jpeg"]
+    }
+  ]
 }
