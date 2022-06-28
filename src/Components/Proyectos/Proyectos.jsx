@@ -1,11 +1,23 @@
-import React from "react";
-import { Box, Text, Heading, Divider } from "@chakra-ui/react";
-import RecipesApp from "./RecipesApp";
-import Exmine from "./Exmine";
+import React, { useEffect } from "react";
+import { useDispatch, useSelector } from "react-redux";
+import { getAllJobs, filterJobs } from "../../redux-toolkit/getAndFilter";
+import { Box, Heading, Divider, Button, Link } from "@chakra-ui/react";
+import  Proyecto  from "./Proyecto.jsx";
 
 const Proyectos = () => {
+  // esto fue una prueba, FUNCIONA, lo dejo hasta que lo arme bien en los hooks
+  const dispatch = useDispatch();
+  const jobs = useSelector((state) => state.jobs.jobs);
+  useEffect(() => {
+    dispatch(getAllJobs());
+  }, []);
+  console.log(jobs);
+  const handleClick = () => {
+    dispatch(filterJobs());
+  };
   return (
     <>
+      <Button onClick={handleClick}>Filtrar</Button>
       <Box h="100%" id="SobreMi" pt="10vh" pl="20vw">
         <Box
           h="auto"
@@ -14,21 +26,30 @@ const Proyectos = () => {
           flexDirection="column"
           alignItems="center"
         >
-          <Heading
-            as="h3"
-            size="2xl"
-            pt={5}
-            color="textColor"
-          >
+          <Heading as="h3" size="2xl" pt={5} color="textColor">
             Mis Trabajos
           </Heading>
           <Box mt={10} mb={10}>
-            <RecipesApp/>
-            <Exmine/>
+
+              {jobs.length && jobs.map((j) => {
+                return (
+                  <Proyecto
+                    key={j.id}
+                    name={j.name}
+                    id={j.id}
+                    cardImg={j.cardImg}
+                    shortDescription={j.shortDescription}
+                    linkToPage={j.linkToPage}
+                    linkToRepo={j.linkToRepo}
+                    technologiesIcons={j.technologiesIcons}
+                  />
+                );
+              })}
+
           </Box>
         </Box>
       </Box>
-      <Box pl='30vw' pr='30vw' pt="10vh">
+      <Box pl="30vw" pr="30vw" pt="10vh">
         <Divider />
       </Box>
     </>
