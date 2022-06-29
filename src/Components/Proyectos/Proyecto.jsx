@@ -1,7 +1,25 @@
 import React from "react";
 import { Box, Heading, Text, Image, Link } from "@chakra-ui/react";
-import TecnologiasParaCard from "./TecnologiasParaCard";
+import {
+  Html5,
+  CssThree,
+  ReactJs,
+  Redux,
+  Nodedotjs,
+  Express,
+  Postgresql,
+  Figma,
+  Mui,
+  Chakraui,
+  Git,
+  Gnubash,
+  Javascript,
+  Sequelize,
+  Github
+} from "@icons-pack/react-simple-icons";
+import TechnologiesIcons from "./TechnologiesIcons";
 
+const tecs = [Html5,CssThree,ReactJs,Redux,Nodedotjs,Express,Postgresql,Figma,Mui,Chakraui,Git,Gnubash,Javascript,Sequelize,Github]
 const Proyecto = ({
   name,
   cardImg,
@@ -36,7 +54,11 @@ const Proyecto = ({
             {shortDescription}
           </Text>
           <Box>
-            <TecnologiasParaCard technologiesIcons={technologiesIcons} />
+            {
+              technologiesIcons?.map((i)=> {
+                return <TechnologiesIcons Icon={i} />
+              })
+            }
           </Box>
         </Box>
       </Box>

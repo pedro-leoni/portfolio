@@ -19,6 +19,7 @@ import {
   Github
 } from "@icons-pack/react-simple-icons";
 
+
 const SkillCards = () => {
   return (
   <Box display='flex' flexWrap='wrap' alignContent='center' pb='10vh'>

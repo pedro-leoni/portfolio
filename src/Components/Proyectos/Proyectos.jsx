@@ -11,7 +11,6 @@ const Proyectos = () => {
   useEffect(() => {
     dispatch(getAllJobs());
   }, []);
-  console.log(jobs);
   const handleClick = () => {
     dispatch(filterJobs());
   };
