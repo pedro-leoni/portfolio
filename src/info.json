@@ -8,7 +8,7 @@
       "frontEndTech": ["React", "Redux", "CSS"],
       "backEndTech": ["NodeJs", "Express"],
       "dbAndORM": ["PostgreSQL", "Sequelize"],
-      "otherTechs": [""],
+      "otherTechs": [],
       "technologiesIcons": [
         "Javascript",
         "Html5",
@@ -35,7 +35,7 @@
       "id": 2,
       "name": "Exmine",
       "shortDescription": "Ecommerce - Proyecto Final Academico (Soy Henry)",
-      "description": "Exmine es una ecommerce dedicada a la venta de insumos para la mineria de criptomonedas. Cuenta con un sistema de creacion de cuentas/login autenticado con JWT, envio de mails, un carrito de compras, una pasarela de pago con Stripe, un sistema de roles y un panel de administracion muy completo que permite cambiar detalles del producto, stock, precios, aplicar descuentos y tambien gestionar usuarios, entre otras varias funcionalidades.",
+      "description": "Exmine es una ecommerce dedicada a la venta de insumos para la mineria de criptomonedas. Cuenta con un sistema de creacion de login autenticado con JWT, envio de mails, un carrito de compras, una pasarela de pago con Stripe, un sistema de roles y un panel de administracion muy completo que permite cambiar detalles del producto, stock, precios, aplicar descuentos y tambien gestionar usuarios, entre otras varias funcionalidades.",
       "frontEndTech": ["React", "Redux", "Material UI", "Formik", "Sweetalert"],
       "backEndTech": ["NodeJs", "Express", "Nodemailer", "Multer"],
       "dbAndORM": ["PostgreSQL", "Sequelize"],
@@ -72,8 +72,8 @@
       "shortDescription": "SPA",
       "description": "Este portfolio esta realizado desde 0 por mi, a medida que aprendo cosas nuevas intento volcarlas en esta pagina, espero te guste!",
       "frontEndTech": ["React","Redux Toolkit","ChakraUI"],
-      "backEndTech": [""],
-      "dbAndORM": [""],
+      "backEndTech": [],
+      "dbAndORM": [],
       "otherTechs": ["Agregar librerias que use"],
       "technologiesIcons": [
         "Javascript",

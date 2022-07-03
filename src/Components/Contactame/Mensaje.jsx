@@ -11,8 +11,8 @@ import { ChatIcon } from "@chakra-ui/icons";
 
 const Mensaje = () => {
   return (
-    <Box>
-      <Heading p={3} pt={5} color="textColor">
+    <Box p={10}>
+      <Heading p={3} pt={5} color="textColor" textAlign='center'>
         O dejame tu mensaje
       </Heading>
       <Box display="flex" w="30vw" mt={5}>

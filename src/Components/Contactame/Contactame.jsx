@@ -11,13 +11,13 @@ const Contactame = () => {
           <Heading as="h5" size="2xl" pt={5} pb={5} color="textColor" textAlign="center">
             Contactame
           </Heading>
-          <Box display='flex' justifyContent='space-around'>
+          <Box display='flex' flexDirection='column' alignItems='center'>
             <Redes />
             <Mensaje />
           </Box>
         </Box>
       </Box>
-      <Box pt="20vh">
+      <Box pt="15vh">
         <Divider />
       </Box>
     </>

@@ -41,6 +41,12 @@ const Proyectos = () => {
                     linkToPage={j.linkToPage}
                     linkToRepo={j.linkToRepo}
                     technologiesIcons={j.technologiesIcons}
+                    description={j.description}
+                    frontEndTech={j.frontEndTech}
+                    backEndTech={j.backEndTech}
+                    dbAndORM={j.dbAndORM}
+                    otherTechs={j.otherTechs}
+                    imgsGalery={j.imgsGalery}
                   />
                 );
               })}
