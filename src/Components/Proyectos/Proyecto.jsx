@@ -68,6 +68,8 @@ const Proyecto = ({
         _hover={{
           transform: "scale(1.1)",
         }}
+       backgroundColor='black'
+       opacity='80%'
       >
         <Box display="flex" overflow="auto">
           <Image boxSize="150px" m={2} p={2} src={cardImg} objectFit="cover" />
