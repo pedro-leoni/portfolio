@@ -44,7 +44,7 @@ const Proyecto = ({
   const { isOpen, onOpen, onClose } = useDisclosure();
   const finalRef = useRef(null);
   return (
-    <Link onClick={onOpen}>
+    <Box onClick={onOpen} >
       <ProyectModal
         name={name}
         finalFocusRef={finalRef}
@@ -67,6 +67,7 @@ const Proyecto = ({
         mb={3}
         _hover={{
           transform: "scale(1.1)",
+          cursor: 'pointer'
         }}
        backgroundColor='black'
        opacity='80%'
@@ -98,7 +99,7 @@ const Proyecto = ({
           </Box>
         </Box>
       </Box>
-    </Link>
+    </Box>
   );
 };
 
