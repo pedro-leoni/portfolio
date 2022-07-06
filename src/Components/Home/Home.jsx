@@ -9,23 +9,22 @@ import Footer from "../Footer/Footer";
 import NavBar from "../NavBar/NavBar";
 import Particles from "react-tsparticles";
 import { loadFull }  from "tsparticles";
+import UpButton from "../Buttons/UpButton";
 
 
 const Home = () => {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
-   const particlesLoaded = (container) => {
-    console.log(container);
-  };
+
   return (
     <Box>
     <Particles
       id="tsparticles"
       init={particlesInit}
-      loaded={particlesLoaded}
+
       options={{
-        fpsLimit: 120,
+        fpsLimit: 60,
         interactivity: {
           events: {
             onClick: {
@@ -43,7 +42,7 @@ const Home = () => {
               quantity: 4,
             },
             repulse: {
-              distance: 200,
+              distance: 100,
               duration: 0.4,
             },
           },
@@ -97,6 +96,7 @@ const Home = () => {
       }}
     />
       <NavBar />
+      
       <Box  bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="100vh">
         <Hola />
       </Box>
@@ -104,6 +104,7 @@ const Home = () => {
       <Box pl='30vw' pr='30vw' pb="10vh">
         <Divider />
     </Box>
+    <UpButton/>
         <SobreMi />
       </Box>
       <Box id="Tecnologias" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">

@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return (
-    <Box h="5vh" display='flex' alignItems='center' justifyContent='space-between' color='textColor'>
+    <Box h="7vh" display='flex' alignItems='center' justifyContent='space-between' color='textColor'>
       <Box display="flex">
         <Link
           href="mailto:pedroleoni1996@gmail.com"

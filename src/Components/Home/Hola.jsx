@@ -21,7 +21,7 @@ const Hola = () => {
           as="h1"
           size={["", "1xl", "2xl"]}
           color="textSecondary"
-          noOfLines={1}
+          
           m={3}
           p={3}
         >
@@ -33,7 +33,7 @@ const Hola = () => {
           as="h1"
           size={["1xl","2xl","4xl"]}
           color="textColor"
-          noOfLines={1}
+          
           m={3}
           p={3}
         >

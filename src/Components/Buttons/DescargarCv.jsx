@@ -14,6 +14,7 @@ const DescargarCv = () => {
         textDecoration="none"
         mt={3}
         rightIcon={<ExternalLinkIcon />}
+        size={['xs','md']}
       >
         Descargar CV
       </Button>

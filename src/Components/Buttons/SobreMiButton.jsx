@@ -14,6 +14,7 @@ const SobreMiButton = () => {
       mt={3}
       mr={3}
       rightIcon={<InfoOutlineIcon />}
+      size={['xs','md']}
     >
       Sobre Mi
     </Button>

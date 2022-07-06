@@ -75,7 +75,7 @@ const ProyectModal = ({
             target="_blank"
             _hover={{ color: "detailsPrimary", textDecoration: "none" }}
           >
-            <Button m={2} rightIcon={<ExternalLinkIcon />}>
+            <Button m={2} rightIcon={<ExternalLinkIcon />} size={['xs','md']}>
               Visitar pagina
             </Button>
           </Link>
@@ -84,7 +84,7 @@ const ProyectModal = ({
             target="_blank"
             _hover={{ color: "detailsPrimary", textDecoration: "none" }}
           >
-            <Button m={2} rightIcon={<Github />}>
+            <Button m={2} rightIcon={<Github />} size={['xs','md']}>
               Ver codigo
             </Button>
           </Link>

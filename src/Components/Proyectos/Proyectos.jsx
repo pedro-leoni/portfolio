@@ -11,12 +11,9 @@ const Proyectos = () => {
   useEffect(() => {
     dispatch(getAllJobs());
   }, []);
-  const handleClick = () => {
-    dispatch(filterJobs());
-  };
   return (
     <>
-      <Button onClick={handleClick}>Filtrar</Button>
+      
       <Box h="100%" id="SobreMi" pt="10vh" pl="20vw">
         <Box
           h="auto"

@@ -52,12 +52,12 @@ const Mensaje = () => {
   };
 
   return (
-    <Box p={10}>
+    <Box p={[2,10]}>
       <Heading p={3} pt={5} color="textColor" textAlign="center">
         O dejame tu mensaje
       </Heading>
       <form onSubmit={onSubmitInputs} ref={formRef}>
-        <Box display="flex" flexDirection={['column','row']} w="30vw" mt={5}>
+        <Box display="flex" flexDirection={['column','row']} w={["50vw","30vw"]} mt={5}>
           <FormControl isRequired p={3}>
             <Input
               id="name"
@@ -75,6 +75,7 @@ const Mensaje = () => {
               placeholder="Email"
               name="email"
               onChange={onChangeInputs}
+              
             />
           </FormControl>
         </Box>
@@ -93,6 +94,7 @@ const Mensaje = () => {
             type="submit"
             _hover={{ color: "detailsPrimary" }}
             rightIcon={<ChatIcon />}
+            size={['xs','md']}
           >
             Enviar
           </Button>

@@ -22,7 +22,7 @@ import {
 
 const SkillCards = () => {
   return (
-  <Box display='flex' flexWrap='wrap' alignContent='center' pb='10vh'>
+  <Box display='flex' flexDirection={['column','row']} flexWrap='wrap' alignItems='center' alignContent='center' pb='10vh'>
     <SkillCard Icon={Html5} text={'HTML5'} />
     <SkillCard Icon={CssThree} text={'CSS3'} />
     <SkillCard Icon={Javascript} text={'Javascript'}/>
