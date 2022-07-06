@@ -10,113 +10,83 @@ import NavBar from "../NavBar/NavBar";
 import Particles from "react-tsparticles";
 import { loadFull }  from "tsparticles";
 import UpButton from "../Buttons/UpButton";
+import { useEffect } from "react";
+import { useState } from "react";
+import options from "./options"
 
 
 const Home = () => {
   const particlesInit = async (main) => {
     await loadFull(main);
   };
+  const [upButton, setupButton] = useState(false)
+
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      if(window.scrollY > 10){
+        setupButton(true)
+      }else{
+        setupButton(false)
+      }
+    });
+  }, [])
+  
 
   return (
     <Box>
-    <Particles
-      id="tsparticles"
-      init={particlesInit}
-
-      options={{
-        fpsLimit: 60,
-        interactivity: {
-          events: {
-            onClick: {
-              enable: true,
-              mode: "push",
-            },
-            onHover: {
-              enable: true,
-              mode: "repulse",
-            },
-            resize: true,
-          },
-          modes: {
-            push: {
-              quantity: 4,
-            },
-            repulse: {
-              distance: 100,
-              duration: 0.4,
-            },
-          },
-        },
-        particles: {
-          color: {
-            value: "#00FF40",
-          },
-          links: {
-            color: "#00FF40",
-            distance: 150,
-            enable: true,
-            opacity: 0.2,
-            width: 1,
-          },
-          collisions: {
-            enable: true,
-          },
-          move: {
-            direction: "none",
-            enable: true,
-            outModes: {
-              default: "bounce",
-            },
-            random: false,
-            speed: 1,
-            straight: false,
-          },
-          number: {
-            density: {
-              enable: true,
-              area: 800,
-            },
-            value: 80,
-          },
-          opacity: {
-            value: 0.1,
-          },
-          shape: {
-            density: {
-              enable: true,
-              area: 100,
-            },
-            type: "circle",
-          },
-          size: {
-            value: { min: 1, max: 2 },
-          },
-        },
-        detectRetina: true,
-      }}
-    />
+      <Particles
+        id="tsparticles"
+        init={particlesInit}
+        options={options}
+      />
       <NavBar />
-      
-      <Box  bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="100vh">
+
+      <Box
+        bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
+        h="100vh"
+      >
         <Hola />
       </Box>
-      <Box bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto" >
-      <Box pl='30vw' pr='30vw' pb="10vh">
-        <Divider />
-    </Box>
-    <UpButton/>
+        {
+          upButton ? <UpButton /> : null
+        }
+      <Box
+        bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
+        h="auto"
+      >
+        <Box pl="30vw" pr="30vw" pb="10vh">
+          <Divider />
+        </Box>
         <SobreMi />
       </Box>
-      <Box id="Tecnologias" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
+
+
+      <Box
+        id="Tecnologias"
+        bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
+        h="auto"
+      >
         <Tecnologias />
       </Box>
-      <Box id="Proyectos" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
+      <Box
+        id="Proyectos"
+        bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
+        h="auto"
+      >
         <Proyectos />
       </Box>
-      <Box id="Contactame" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto">
+      <Box
+        id="Contactame"
+        bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
+        h="auto"
+      >
         <Contactame />
       </Box>
-      <Box id="Footer" bgGradient='linear(to-r , backgroundHome 70%, backgroundHomeSecondary)' h="auto" >
+      <Box
+        id="Footer"
+        bgGradient="linear(to-r , backgroundHome 70%, backgroundHomeSecondary)"
+        h="auto"
+      >
         <Footer />
       </Box>
     </Box>
