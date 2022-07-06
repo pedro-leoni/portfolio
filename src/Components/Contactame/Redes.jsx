@@ -11,7 +11,7 @@ const Redes = () => {
   return (
     <Box color="textColor">
       <Box>
-        <Box display='flex'>
+        <Box display='flex' flexDirection={['column','row']}>
           <Link
             href="mailto:pedroleoni1996@gmail.com"
             target="_blank"
@@ -36,7 +36,7 @@ const Redes = () => {
             <Text ml={5}>+54 9 351 2329263</Text>
           </Link>
         </Box>
-        <Box display='flex'>
+        <Box display='flex' flexDirection={['column','row']}>
           <Link
             href="https://linkedin.com/in/pedro-leoni/"
             target="_blank"

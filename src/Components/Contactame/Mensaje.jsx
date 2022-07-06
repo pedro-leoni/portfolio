@@ -22,16 +22,6 @@ const Mensaje = () => {
     email: "",
     msg: "",
   });
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
-
-  //   emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', inputs, 'YOUR_PUBLIC_KEY')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
   const onChangeInputs = (e) => {
     setInputs({
       ...inputs,
@@ -67,7 +57,7 @@ const Mensaje = () => {
         O dejame tu mensaje
       </Heading>
       <form onSubmit={onSubmitInputs} ref={formRef}>
-        <Box display="flex" w="30vw" mt={5}>
+        <Box display="flex" flexDirection={['column','row']} w="30vw" mt={5}>
           <FormControl isRequired p={3}>
             <Input
               id="name"

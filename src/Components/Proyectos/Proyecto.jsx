@@ -73,7 +73,7 @@ const Proyecto = ({
        opacity='80%'
       >
         <Box display="flex" overflow="auto">
-          <Image boxSize="150px" m={2} p={2} src={cardImg} objectFit="cover" />
+          <Image display={['none','block']} boxSize={["150px"]} m={2} p={2} src={cardImg} objectFit="cover" />
           <Box
             display="flex"
             flexDirection="column"
@@ -83,7 +83,7 @@ const Proyecto = ({
             <Heading size="md" pt={5} color="textColor">
               {name}
             </Heading>
-            <Text color="textColor" mt={2}>
+            <Text color="textColor" m={2} mt={2}>
               {shortDescription}
             </Text>
             <Box display="flex" width="100%" justifyContent="center" m={4}>

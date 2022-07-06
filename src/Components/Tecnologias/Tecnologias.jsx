@@ -14,18 +14,13 @@ const Tecnologias = () => {
           textAlign="center"
           alignItems="center"
         >
-          <Heading
-            as="h3"
-            size="2xl"
-            pt={5}
-            color="textColor"
-          >
+          <Heading as="h3" size="2xl" pt={5} color="textColor">
             Tecnologias
           </Heading>
           <SkillCards />
         </Box>
       </Box>
-      <Box pl='30vw' pr='30vw'>
+      <Box pl="30vw" pr="30vw" textAlign="center" alignItems="center">
         <Divider />
       </Box>
     </>

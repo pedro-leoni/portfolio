@@ -13,13 +13,13 @@ const SobreMi = () => {
       >
         <Heading
           as="h3"
-          size="2xl"
+          size={["2xl"]}
           pt={5}
           color="textColor"
         >
           Sobre Mi
         </Heading>
-        <Text p={10} color="textColor" fontSize="2xl">
+        <Text p={[5,10]} color="textColor" fontSize={["","2xl"]}>
           Me considero proactivo y autodidacta, me apasiona el desarrollo web y
           hago foco en las buenas practicas y la optimizacion del codigo.
           <br />

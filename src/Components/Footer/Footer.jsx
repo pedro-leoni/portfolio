@@ -53,7 +53,7 @@ const Footer = () => {
           <Whatsapp />
         </Link>
       </Box>
-      <Box>
+      <Box display={["none","block"]}>
         <Text  p={3}>
           Todos los derechos reservados © Pedro Leoni 2022.
         </Text>

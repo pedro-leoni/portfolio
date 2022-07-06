@@ -10,16 +10,8 @@ const Hola = () => {
   };
   const machineText2 = (typewriter) => {
     typewriter
-      .pauseFor(5000)
-      .typeString("Full Stack Web Developer")
-      .pauseFor(2000)
-      .deleteAll()
-      .typeString("Frontend Developer")
-      .pauseFor(2000)
-      .deleteAll()
-      .typeString("Backend Developer")
-      .pauseFor(2000)
-      .start();
+      .pauseFor(4500)
+      .typeString("Desarrollador Web Full Stack").start();
   };
 
   return (
@@ -39,13 +31,13 @@ const Hola = () => {
 
         <Heading
           as="h1"
-          size={["","2xl","4xl"]}
+          size={["1xl","2xl","4xl"]}
           color="textColor"
           noOfLines={1}
           m={3}
           p={3}
         >
-          <Typewriter onInit={machineText2} options={{ loop: true }} />
+          <Typewriter onInit={machineText2}  />
           {/* Hola, soy Pedro Leoni */}
         </Heading>
       </Box>
