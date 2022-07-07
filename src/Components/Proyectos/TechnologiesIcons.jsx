@@ -17,7 +17,6 @@ import {
 import { Box } from "@chakra-ui/react";
 
 const TechnologiesIcons = ({ technologiesIcons }) => {
-  console.log(" putooooo -> ", technologiesIcons.includes('Html5'));
   return (
     <>
     {
