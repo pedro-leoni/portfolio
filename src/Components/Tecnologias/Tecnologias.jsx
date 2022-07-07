@@ -5,7 +5,7 @@ import SkillCards from "./SkillCards";
 const Tecnologias = () => {
   return (
     <>
-      <Box pl="20vw" h="100%" w="100%" id="SobreMi" pt="10vh">
+      <Box pl="20vw" h="100%" w="100%" id="SobreMi" pt={2}>
         <Box
           h="auto"
           w="60vw"
@@ -14,8 +14,8 @@ const Tecnologias = () => {
           textAlign="center"
           alignItems="center"
         >
-          <Heading as="h3" size="2xl" pt={5} color="textColor">
-            Tecnologias
+          <Heading as="h5"  pt={5} color="textColor">
+            Tecnologías
           </Heading>
           <SkillCards />
         </Box>

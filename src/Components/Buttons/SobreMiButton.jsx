@@ -16,7 +16,7 @@ const SobreMiButton = () => {
       rightIcon={<InfoOutlineIcon />}
       size={['xs','md']}
     >
-      Sobre Mi
+      Sobre Mí
     </Button>
   </Link>
   )

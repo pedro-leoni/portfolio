@@ -17,11 +17,11 @@ const SobreMi = () => {
           pt={5}
           color="textColor"
         >
-          Sobre Mi
+          Sobre Mí
         </Heading>
         <Text p={[5,10]} color="textColor" fontSize={["","2xl"]}>
           Me considero proactivo y autodidacta, me apasiona el desarrollo web y
-          hago foco en las buenas practicas y la optimizacion del codigo.
+          hago foco en las buenas prácticas y la optimización del código.
           <br />
           <br />
           Soy una persona muy curiosa que quiere entender el funcionamiento de
@@ -29,7 +29,7 @@ const SobreMi = () => {
           <br />
           <br />
           Estudie mas de 800 horas en Soy Henry con el objetivo de
-          obtener mi titulo de desarrollador full stack
+          obtener mi título de desarrollador full stack.
         </Text>
       </Box>
     </Box>

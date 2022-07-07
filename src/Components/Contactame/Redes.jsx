@@ -15,7 +15,7 @@ const Redes = () => {
           <Link
             href="mailto:pedroleoni1996@gmail.com"
             target="_blank"
-            _hover={{ color: "detailsPrimary", textDecoration: "none" }}
+            _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F", textDecoration: "none" }}
             display="flex"
             alignItems="center"
             p={3}
@@ -27,7 +27,7 @@ const Redes = () => {
           <Link
             href="https://wa.me/5493512329263"
             target="_blank"
-            _hover={{ color: "detailsPrimary", textDecoration: "none" }}
+            _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F" ,textDecoration: "none" }}
             display="flex"
             alignItems="center"
             p={3}
@@ -40,7 +40,7 @@ const Redes = () => {
           <Link
             href="https://linkedin.com/in/pedro-leoni/"
             target="_blank"
-            _hover={{ color: "detailsPrimary", textDecoration: "none" }}
+            _hover={{ color: "detailsPrimary",textShadow:"3px 3px 7px #0FFF4F" ,textDecoration: "none" }}
             display="flex"
             alignItems="center"
             p={3}
@@ -52,7 +52,7 @@ const Redes = () => {
           <Link
             href="https://github.com/pedro-leoni"
             target="_blank"
-            _hover={{ color: "detailsPrimary", textDecoration: "none" }}
+            _hover={{ color: "detailsPrimary",textShadow:"3px 3px 7px #0FFF4F", textDecoration: "none" }}
             display="flex"
             alignItems="center"
             p={3}

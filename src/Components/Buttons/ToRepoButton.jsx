@@ -11,7 +11,7 @@ const ToRepoButton = ({linkToRepo}) => {
     _hover={{ color: "detailsPrimary", textDecoration: "none" }}
   >
     <Button m={2} rightIcon={<Github />}>
-      Ver codigo
+      Ver código
     </Button>
   </Link>
   )

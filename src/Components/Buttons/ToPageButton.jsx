@@ -10,7 +10,7 @@ const ToPageButton = ({linkToPage}) => {
     _hover={{ color: "detailsPrimary", textDecoration: "none" }}
   >
     <Button m={2} rightIcon={<ExternalLinkIcon />}>
-      Visitar pagina
+      Visitar página
     </Button>
   </Link>
   )

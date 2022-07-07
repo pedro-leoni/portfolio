@@ -19,19 +19,19 @@ const NavBar = () => {
         w="100vw"
       >
         <Link href="#SobreMi" _hover={{textDecoration:'none'}}>
-          <Text color="textColor" _hover={{ color: "detailsPrimary"}}>
-            Sobre Mi
+          <Text color="textColor" _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F"}}>
+            Sobre Mí
           </Text>
         </Link>
 
         <Link href="#Proyectos" _hover={{textDecoration:'none'}}>
-          <Text color="textColor" _hover={{ color: "detailsPrimary" }}>
+          <Text color="textColor" _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F" }}>
             Proyectos
           </Text>
         </Link>
 
         <Link href="#Contactame" _hover={{textDecoration:'none'}}>
-          <Text color="textColor" _hover={{ color: "detailsPrimary" }}>
+          <Text color="textColor" _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F" }}>
             Contactame
           </Text>
         </Link>
@@ -40,7 +40,7 @@ const NavBar = () => {
           isExternal
           _hover={{textDecoration:'none'}}
         >
-          <Text color="textColor" _hover={{ color: "detailsPrimary" }}>
+          <Text color="textColor" _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F" }}>
             CV
           </Text>
         </Link>

@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React from "react";
 import {
   Box,
   FormControl,
@@ -9,36 +9,52 @@ import {
 } from "@chakra-ui/react";
 import { ChatIcon } from "@chakra-ui/icons";
 import emailjs from "@emailjs/browser";
-import { Formik } from "formik";
+import { useFormik } from "formik";
+import * as yup from "yup";
 import Swal from "sweetalert2";
+
+const validationSchema = yup.object({
+  name: yup
+    .string()
+    .min(2, "Muy corto")
+    .max(20, "Máximo 20 caracteres")
+    .required("Debes insertar un nombre"),
+
+  msg: yup
+    .string()
+    .min(15, "Muy corto")
+    .max(500, "Máximo 600 caracteres")
+    .required("Debes escribir un mensaje"),
+
+  email: yup
+    .string()
+    .email()
+    .required("Por favor ingrese un email"),
+
+});
 
 const Mensaje = () => {
   const { REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, REACT_APP_PUBLIC_KEY } =
     process.env;
+ 
   emailjs.init(REACT_APP_PUBLIC_KEY);
-  const formRef = useRef(null);
-  const [inputs, setInputs] = useState({
-    name: "",
-    email: "",
-    msg: "",
-  });
-  const onChangeInputs = (e) => {
-    setInputs({
-      ...inputs,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const onSubmitInputs = (e) => {
-    let templateParams = inputs;
-    e.preventDefault();
-    emailjs
-      .send(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, templateParams)
+ 
+  
+  const formik = useFormik({
+    initialValues: {
+      name: "",
+      email: "",
+      msg: "",
+    },
+    validationSchema: validationSchema,
+    onSubmit: (values) => {
+      emailjs
+      .send(REACT_APP_SERVICE_ID, REACT_APP_TEMPLATE_ID, values)
       .then(
         (result) => {
           Swal.fire({
             title: "Mensaje Enviado!",
-            text: "Recibiras una respuesta a la brevedad",
+            text: "Recibirás una respuesta a la brevedad",
             icon: "success",
             background: "#161616",
             color: "#FBFBFB",
@@ -49,22 +65,27 @@ const Mensaje = () => {
           console.log("este es el error => ", error);
         }
       );
-  };
+    }
+  })
+
 
   return (
     <Box p={[2,10]}>
       <Heading p={3} pt={5} color="textColor" textAlign="center">
         O dejame tu mensaje
       </Heading>
-      <form onSubmit={onSubmitInputs} ref={formRef}>
-        <Box display="flex" flexDirection={['column','row']} w={["50vw","30vw"]} mt={5}>
+      <form onSubmit={formik.handleSubmit}>
+        <Box display="flex" flexDirection={['column','column','row']} w={["50vw","30vw"]} mt={5}>
           <FormControl isRequired p={3}>
             <Input
               id="name"
               name="name"
               color="textColor"
               placeholder="Nombre"
-              onChange={onChangeInputs}
+              onChange={formik.handleChange}
+              value={formik.values.name}
+              error={formik.touched.name && Boolean(formik.errors.name)}
+              helperText={formik.touched.name && formik.errors.name}
             />
           </FormControl>
           <FormControl isRequired p={3}>
@@ -74,7 +95,10 @@ const Mensaje = () => {
               color="textColor"
               placeholder="Email"
               name="email"
-              onChange={onChangeInputs}
+              onChange={formik.handleChange}
+              value={formik.values.email}
+              error={formik.touched.email && Boolean(formik.errors.email)}
+              helperText={formik.touched.email && formik.errors.email}
               
             />
           </FormControl>
@@ -85,7 +109,10 @@ const Mensaje = () => {
             name="msg"
             placeholder="Escribi tu mensaje"
             color="textColor"
-            onChange={onChangeInputs}
+            onChange={formik.handleChange}
+            value={formik.values.msg}
+            error={formik.touched.msg && Boolean(formik.errors.msg)}
+            helperText={formik.touched.msg && formik.errors.msg}
           />
         </FormControl>
 

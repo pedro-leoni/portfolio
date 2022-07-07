@@ -65,7 +65,7 @@ const ProyectModal = ({
           )}
           {otherTechs.length !== 0 && (
             <Text m={2} color="textColor">
-              <Text as='u'>Otras tecnologias:</Text> {otherTechs.join(" - ")}
+              <Text as='u'>Otras tecnologías:</Text> {otherTechs.join(" - ")}
             </Text>
           )}
         </ModalBody>
@@ -76,7 +76,7 @@ const ProyectModal = ({
             _hover={{ color: "detailsPrimary", textDecoration: "none" }}
           >
             <Button m={2} rightIcon={<ExternalLinkIcon />} size={['xs','md']}>
-              Visitar pagina
+              Visitar página
             </Button>
           </Link>
           <Link
@@ -85,7 +85,7 @@ const ProyectModal = ({
             _hover={{ color: "detailsPrimary", textDecoration: "none" }}
           >
             <Button m={2} rightIcon={<Github />} size={['xs','md']}>
-              Ver codigo
+              Ver código
             </Button>
           </Link>
         </ModalFooter>

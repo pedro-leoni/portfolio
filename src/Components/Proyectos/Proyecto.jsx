@@ -7,23 +7,6 @@ import {
   Link,
   useDisclosure,
 } from "@chakra-ui/react";
-import {
-  Html5,
-  CssThree,
-  ReactJs,
-  Redux,
-  Nodedotjs,
-  Express,
-  Postgresql,
-  Figma,
-  Mui,
-  Chakraui,
-  Git,
-  Gnubash,
-  Javascript,
-  Sequelize,
-  Github,
-} from "@icons-pack/react-simple-icons";
 import TechnologiesIcons from "./TechnologiesIcons";
 import ProyectModal from "./ProyectModal";
 
@@ -72,13 +55,15 @@ const Proyecto = ({
        backgroundColor='black'
        opacity='80%'
       >
-        <Box display="flex" overflow="auto">
-          <Image display={['none','block']} boxSize={["150px"]} m={2} p={2} src={cardImg} objectFit="cover" />
+        <Box display="flex" overflow="auto" width='100%' >
+          <Image width='20%' display={['none',"none",'block']} boxSize={["150px"]} m={2} p={2} src={cardImg} objectFit="cover" />
           <Box
             display="flex"
             flexDirection="column"
             alignItems="center"
             justifyContent="space-between"
+            width='80%'
+            ml={[5,5,0]}
           >
             <Heading size="md" pt={5} color="textColor">
               {name}
@@ -86,15 +71,8 @@ const Proyecto = ({
             <Text color="textColor" m={2} mt={2}>
               {shortDescription}
             </Text>
-            <Box display="flex" width="100%" justifyContent="center" m={4}>
-              <ReactJs color="#FBFBFB" />
-              <Nodedotjs color="#FBFBFB" />
-              <Postgresql color="#FBFBFB" />
-              {/* {
-              technologiesIcons?.map((i)=> {
-                return <TechnologiesIcons Icon={i} />
-              })
-            } */}
+            <Box display={["none","none","flex"]} width="100%" justifyContent="center" m={4}>
+              <TechnologiesIcons technologiesIcons={technologiesIcons} />
             </Box>
           </Box>
         </Box>

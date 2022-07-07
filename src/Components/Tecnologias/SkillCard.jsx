@@ -9,7 +9,7 @@ const SkillCard = ({ Icon, text }) => {
       pt={10}
       _hover={{ transform: "scale(1.1)" }}
     >
-      <Icon color="#FBFBFB" height="80" width="80" />
+      <Icon color="#FBFBFB" height="70" width="70" />
       <Text pt={2} textAlign="center" color="textColor">
         {text}
       </Text>
