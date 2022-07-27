@@ -23,7 +23,7 @@ const validationSchema = yup.object({
 
   msg: yup
     .string()
-    .min(15, "Muy corto")
+    .min(15, "Minimo 10 caracteres")
     .max(500, "Máximo 600 caracteres")
     .required("Debes escribir un mensaje"),
 
