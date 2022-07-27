@@ -4,7 +4,6 @@ import {
   Heading,
   Text,
   Image,
-  Link,
   useDisclosure,
 } from "@chakra-ui/react";
 import TechnologiesIcons from "./TechnologiesIcons";

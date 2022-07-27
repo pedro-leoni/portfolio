@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Heading, useBreakpointValue } from "@chakra-ui/react";
+import { Box, Heading } from "@chakra-ui/react";
 import DescargarCv from "../Buttons/DescargarCv";
 import SobreMiButton from "../Buttons/SobreMiButton";
 import Typewriter from "typewriter-effect";

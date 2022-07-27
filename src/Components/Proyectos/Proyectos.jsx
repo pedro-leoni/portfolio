@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { getAllJobs, filterJobs } from "../../redux-toolkit/getAndFilter";
-import { Box, Heading, Divider, Button, Link } from "@chakra-ui/react";
+import { getAllJobs } from "../../redux-toolkit/getAndFilter";
+import { Box, Heading, Divider } from "@chakra-ui/react";
 import  Proyecto  from "./Proyecto.jsx";
 
 const Proyectos = () => {
@@ -10,7 +10,7 @@ const Proyectos = () => {
   const jobs = useSelector((state) => state.jobs.jobs);
   useEffect(() => {
     dispatch(getAllJobs());
-  }, []);
+  }, [dispatch]);
   return (
     <>
       

@@ -13,7 +13,7 @@ const Contactame = () => {
           </Heading>
           <Box display='flex' flexDirection='column' alignItems='center'>
             <Redes />
-            {/* <Mensaje /> */}
+            <Mensaje />
           </Box>
         </Box>
       </Box>

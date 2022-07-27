@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Text, Link, Button, Heading } from "@chakra-ui/react";
+import { Box, Text, Link } from "@chakra-ui/react";
 import {
   Github,
   Linkedin,
