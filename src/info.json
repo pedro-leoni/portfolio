@@ -74,7 +74,6 @@
         "https://res.cloudinary.com/cloudpiolita/image/upload/v1656430602/portfolio/Recipes%20App/RecipesApp3_qx99nv.png"
       ]
     },
-    
     {
       "id": 3,
       "name": "Portfolio",
@@ -107,6 +106,73 @@
         "https://res.cloudinary.com/cloudpiolita/image/upload/v1657215712/portfolio/Portfolio/sobremi_wpunwa.png",
         "https://res.cloudinary.com/cloudpiolita/image/upload/v1657215712/portfolio/Portfolio/Trabajos_gcavvm.png",
         "https://res.cloudinary.com/cloudpiolita/image/upload/v1657215712/portfolio/Portfolio/Msje_jbx4qs.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Login - Challenge",
+      "shortDescription": "SPA - Challege tecnico para Neuron Health",
+      "description": "Sistema de login, el front esta hecho con react, el backend con express y base de datos Postgre. Persistencia de sesion mediante JWT Y local storage, rutas de front y back protegidas",
+      "frontEndTech": ["React"],
+      "backEndTech": ["NodeJs", "Express"],
+      "dbAndORM": ["PostgreSQL", "Sequelize"],
+      "otherTechs": [
+        "JWT",
+        "Git",
+        "Github"
+      ],
+      "technologiesIcons": [
+        "Javascript",
+        "Html5",
+        "ReactJs",
+        "Nodedotjs",
+        "Express",
+        "Postgresql",
+        "Sequelize",
+        "Git",
+        "Github"
+      ],
+      "linkToPage": "https://neuron-challenge.vercel.app/",
+      "linkToRepo": "https://github.com/pedro-leoni/neuron-challenge",
+      "linkToDemo": "",
+      "cardImg": "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732165/portfolio/Login%20Challenge/login2_y7lkhb.png",
+      "imgsGalery": ["https://res.cloudinary.com/cloudpiolita/image/upload/v1662732165/portfolio/Login%20Challenge/login2_y7lkhb.png",
+      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732166/portfolio/Login%20Challenge/login_xklxt5.png",
+      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732166/portfolio/Login%20Challenge/login3_laqdty.png",
+      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732165/portfolio/Login%20Challenge/login4_qhq3ey.png"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "To Do - NextJs",
+      "shortDescription": "SPA desarrollada completamente en NextJs.",
+      "description": "To-do app creada con Typescript y Next, con la idea de probar la opcion de integrar una rest api que nos ofrece este framework. Postgre en la db, primer deploy de db fuera de heroku",
+      "frontEndTech": ["React","NextJs","ChakraUI"],
+      "backEndTech": ["NodeJs", "NextJs"],
+      "dbAndORM": ["PostgreSQL"],
+      "otherTechs": [
+        "Git",
+        "Github"
+      ],
+      "technologiesIcons": [
+        "Typescript",
+        "Html5",
+        "ReactJs",
+        "Nextdotjs",
+        "Nodedotjs",
+        "Express",
+        "Postgresql",
+        "Git",
+        "Github"
+      ],
+      "linkToPage": "https://to-do-app-mu-five.vercel.app/",
+      "linkToRepo": "https://github.com/pedro-leoni/to-do-app",
+      "linkToDemo": "",
+      "cardImg": "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732617/portfolio/To-Do%20Next/todo_dr1gs1.png",
+      "imgsGalery": ["https://res.cloudinary.com/cloudpiolita/image/upload/v1662732617/portfolio/To-Do%20Next/todo_dr1gs1.png",
+      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732616/portfolio/To-Do%20Next/todo4_gyqkse.png",
+      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732616/portfolio/To-Do%20Next/todo3_srnip4.png",
+      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732616/portfolio/To-Do%20Next/todo2_lar5zh.png"
       ]
     }
   ]

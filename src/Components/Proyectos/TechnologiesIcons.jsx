@@ -13,6 +13,8 @@ import {
   Javascript,
   Sequelize,
   Github,
+  Typescript,
+  Nextdotjs
 } from "@icons-pack/react-simple-icons";
 import { Box } from "@chakra-ui/react";
 
@@ -95,6 +97,18 @@ const TechnologiesIcons = ({ technologiesIcons }) => {
       technologiesIcons.includes('Github') &&
       <Box p={1}>
         <Github color="#FBFBFB" height="30" width="30" />
+      </Box>
+    }
+    {
+      technologiesIcons.includes('Nextdotjs') &&
+      <Box p={1}>
+        <Nextdotjs color="#FBFBFB" height="30" width="30"/>
+      </Box>
+    }
+    {
+      technologiesIcons.includes('Typescript') &&
+      <Box p={1}>
+        <Typescript color="#FBFBFB" height="30" width="30" />
       </Box>
     }
     </>

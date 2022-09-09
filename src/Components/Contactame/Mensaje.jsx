@@ -17,7 +17,7 @@ import Swal from "sweetalert2";
 const validationSchema = yup.object({
   name: yup
     .string()
-    .min(2, "Debe contenter minimo 2 caracteres ")
+    .min(2, "Debe contenter minimo 2 caracteres")
     .max(20, "Máximo 20 caracteres")
     .required("Debes insertar un nombre"),
 

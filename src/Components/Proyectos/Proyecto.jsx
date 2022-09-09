@@ -55,7 +55,7 @@ const Proyecto = ({
        opacity='80%'
       >
         <Box display="flex" overflow="auto" width='100%' >
-          <Image width='20%' display={['none',"none",'block']} boxSize={["150px"]} m={2} p={2} src={cardImg} objectFit="cover" />
+          <Image width='20%' height='20%' display={['none',"none",'block']} boxSize={["150px"]} m={2} p={2} src={cardImg} objectFit="cover" />
           <Box
             display="flex"
             flexDirection="column"

@@ -20,16 +20,13 @@ const SobreMi = () => {
           Sobre Mí
         </Heading>
         <Text p={[5,10]} color="textColor" fontSize={["","2xl"]}>
-          Me considero proactivo y autodidacta, me apasiona el desarrollo web y
-          hago foco en las buenas prácticas y la optimización del código.
+          Tengo 26 años, soy de Mar del Plata, Argentina. Me converti en desarrollador web tras 2 años de estudio autodidacta que complemente con las 800 horas del bootcamp Soy Henry.
           <br />
           <br />
-          Soy una persona muy curiosa que quiere entender el funcionamiento de
-          todo y eso me motiva a estar en un proceso de aprendizaje constante.
+          Me considero proactivo y autodidacta. Me caracteriza principalmente la curiosidad y la necesidad de explorar, lo que me lleva a encontrarme en un proceso de aprendizaje constante, haciendo foco en el codigo limpio y seguro.
           <br />
           <br />
-          Estudie mas de 800 horas en Soy Henry con el objetivo de
-          obtener mi título de desarrollador full stack.
+          Actualmente me encuentro trabajando para Neuron Health.
         </Text>
       </Box>
     </Box>

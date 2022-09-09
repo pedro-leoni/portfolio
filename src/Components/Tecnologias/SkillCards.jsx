@@ -16,7 +16,9 @@ import {
   Gnubash,
   Javascript,
   Sequelize,
-  Github
+  Nextdotjs,
+  Typescript,
+
 } from "@icons-pack/react-simple-icons";
 
 
@@ -26,7 +28,9 @@ const SkillCards = () => {
     <SkillCard Icon={Html5} text={'HTML5'} />
     <SkillCard Icon={CssThree} text={'CSS3'} />
     <SkillCard Icon={Javascript} text={'Javascript'}/>
+    <SkillCard Icon={Typescript} text={'Typescript'}/>
     <SkillCard Icon={ReactJs} text={'React'}/>
+    <SkillCard Icon={Nextdotjs} text={'NextJs'}/>
     <SkillCard Icon={Redux} text={'Redux'}/>
     <SkillCard Icon={Mui} text={'Material UI'}/>
     <SkillCard Icon={Chakraui} text={'Chakra UI'}/>
@@ -36,7 +40,6 @@ const SkillCards = () => {
     <SkillCard Icon={Sequelize} text={'Sequelize'}/>
     <SkillCard Icon={Postgresql} text={'PostgreSQL'}/>
     <SkillCard Icon={Git} text={'Git'}/>
-    <SkillCard Icon={Github} text={'Github'}/>
     <SkillCard Icon={Gnubash} text={'Bash'}/>
   </Box>);
 };

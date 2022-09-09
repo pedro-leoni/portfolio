@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getAllJobs } from "../../redux-toolkit/getAndFilter";
-import { Box, Heading, Divider } from "@chakra-ui/react";
+import { Box, Heading, Divider, Text } from "@chakra-ui/react";
 import  Proyecto  from "./Proyecto.jsx";
 
 const Proyectos = () => {
@@ -25,6 +25,9 @@ const Proyectos = () => {
           <Heading as="h3" size="2xl" pt={5} color="textColor">
             Mis Trabajos
           </Heading>
+          <Text width={['200px','500px']} mt={3} color="textColor">
+            En esta lista se encuentran solo las apps deployadas, podes encontrar mas repositorios con ejercicios, apuntes y proyectos sin deployar en mi perfil de <a style={{textDecoration: 'underline'}} href="https://github.com/pedro-leoni" target="#blank" >github</a>.
+          </Text>
           <Box mt={10} mb={10}>
 
               {jobs.length && jobs.map((j) => {
