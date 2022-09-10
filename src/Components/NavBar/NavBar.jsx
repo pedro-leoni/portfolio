@@ -36,8 +36,8 @@ const NavBar = () => {
           </Text>
         </Link>
         <Link
-          href="https://drive.google.com/file/d/1TjswbqgkuirwSooVYX3SJ9jGPSOT0kNK/view?usp=sharing"
-          isExternal
+          href="PedroLeoniFullStack.pdf"
+          target='#blank'
           _hover={{textDecoration:'none'}}
         >
           <Text color="textColor" _hover={{ color: "detailsPrimary", textShadow:"3px 3px 7px #0FFF4F" }}>

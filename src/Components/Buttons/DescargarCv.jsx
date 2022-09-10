@@ -4,9 +4,9 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 const DescargarCv = () => {
   return (
-    <Link
-      href="https://drive.google.com/file/d/1TjswbqgkuirwSooVYX3SJ9jGPSOT0kNK/view?usp=sharing"
-      target="_blank"
+    <a
+      href="PedroLeoniFullStack.pdf"
+      target="#blank"
       _hover={{ color: "detailsPrimary", textDecoration:'none'}}
     >
       <Button
@@ -18,7 +18,7 @@ const DescargarCv = () => {
       >
         Descargar CV
       </Button>
-    </Link>
+    </a>
   );
 };
 
