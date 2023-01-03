@@ -20,13 +20,18 @@ const SobreMi = () => {
           Sobre Mí
         </Heading>
         <Text p={[5,10]} color="textColor" fontSize={["","2xl"]}>
-          Tengo 26 años, soy de Mar del Plata, Argentina. Me converti en desarrollador web tras 2 años de estudio autodidacta que complemente con las 800 horas del bootcamp Soy Henry.
+          Tengo 26 años y vivo en Mar del Plata, Argentina. Soy desarrollador web full stack hace 2 años y hace 6 meses me desenvuelvo como tal en Neuron Health.
           <br />
           <br />
-          Me considero proactivo y autodidacta. Me caracteriza principalmente la curiosidad y la necesidad de explorar, lo que me lleva a encontrarme en un proceso de aprendizaje constante, haciendo foco en el codigo limpio y seguro.
+          Me considero proactivo y autodidacta. Me caracteriza principalmente la curiosidad y la necesidad de explorar, lo que me lleva a encontrarme en un proceso de aprendizaje constante, haciendo foco en la resolucion de problemas.
           <br />
           <br />
-          Actualmente me encuentro trabajando para Neuron Health.
+          Mi especialidad adentro del desarrollo web es el backend y me encuentro en proceso de ampliar mis conocimientos en data science y machine learning con el fin de convertirme en ingeniero IA. 
+          <br />
+          <br />
+          Tambien me considero bueno con el scripting en python y bash, me gusta utilizarlo para automatizar la mayor cantidad de procedimientos cotidianos. 
+          <br />
+          <br />
         </Text>
       </Box>
     </Box>

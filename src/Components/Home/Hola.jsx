@@ -11,7 +11,7 @@ const Hola = () => {
   const machineText2 = (typewriter) => {
     typewriter
       .pauseFor(4500)
-      .typeString("Desarrollador Web Full Stack").start();
+      .typeString("Software Developer").start();
   };
 
   return (

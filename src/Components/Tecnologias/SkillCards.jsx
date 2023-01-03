@@ -9,16 +9,15 @@ import {
   Nodedotjs,
   Express,
   Postgresql,
-  Figma,
-  Mui,
-  Chakraui,
+  Python,
+  Flask,
   Git,
   Gnubash,
   Javascript,
   Sequelize,
   Nextdotjs,
   Typescript,
-
+  Mongodb
 } from "@icons-pack/react-simple-icons";
 
 
@@ -32,13 +31,13 @@ const SkillCards = () => {
     <SkillCard Icon={ReactJs} text={'React'}/>
     <SkillCard Icon={Nextdotjs} text={'NextJs'}/>
     <SkillCard Icon={Redux} text={'Redux'}/>
-    <SkillCard Icon={Mui} text={'Material UI'}/>
-    <SkillCard Icon={Chakraui} text={'Chakra UI'}/>
-    <SkillCard Icon={Figma} text={'Figma'}/>
+    <SkillCard Icon={Python} text={'Python'}/>
+    <SkillCard Icon={Flask} text={'Flask'}/>
     <SkillCard Icon={Nodedotjs} text={'Node Js'}/>
     <SkillCard Icon={Express} text={'Express'}/>
     <SkillCard Icon={Sequelize} text={'Sequelize'}/>
     <SkillCard Icon={Postgresql} text={'PostgreSQL'}/>
+    <SkillCard Icon={Mongodb} text={'Mongodb'}/>
     <SkillCard Icon={Git} text={'Git'}/>
     <SkillCard Icon={Gnubash} text={'Bash'}/>
   </Box>);
