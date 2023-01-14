@@ -36,7 +36,7 @@ const NavBar = () => {
           </Text>
         </Link>
         <Link
-          href="PedroLeoniFullStack.pdf"
+          href="PedroLeoniBackend.pdf"
           target='#blank'
           _hover={{textDecoration:'none'}}
         >
