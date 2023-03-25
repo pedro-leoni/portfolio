@@ -5,8 +5,8 @@ import { ExternalLinkIcon } from "@chakra-ui/icons";
 const DescargarCv = () => {
   return (
     <Link
-      href="PedroLeoniBackend.pdf"
-      _hover={{ color: "detailsPrimary", textDecoration:'none'}}
+      href="PedroLeoniFullStack.pdf"
+      _hover={{ color: "detailsPrimary", textDecoration: "none" }}
       target="#blank"
     >
       <Button
@@ -14,7 +14,7 @@ const DescargarCv = () => {
         textDecoration="none"
         mt={3}
         rightIcon={<ExternalLinkIcon />}
-        size={['xs','md']}
+        size={["xs", "md"]}
       >
         Descargar CV
       </Button>
