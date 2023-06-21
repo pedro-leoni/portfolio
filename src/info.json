@@ -1,6 +1,40 @@
 {
   "jobs": [
     {
+      "id": 6,
+      "name": "Vira Doctores",
+      "shortDescription": "App que centraliza información extraída por IA de cartas de pago",
+      "description": "Vira doctores utiliza ViraAi para la extracción de información de cartas de pago para aseguradoras de parte de los doctores en México. Se pueden subir cartas, recibir pagos, ver estadisticas, entre otras funcionalidades",
+      "frontEndTech": ["React", "Next", "SCSS", "Tailwind"],
+      "backEndTech": ["NodeJs", "Express", "Nodemailer", "Multer"],
+      "dbAndORM": ["Mongodb", "Mongoose"],
+      "otherTechs": [
+        "JWT",
+        "Stripe",
+        "Firebase",
+        "Multer",
+        "Git",
+        "Github",
+        "AWS",
+        "Figma"
+      ],
+      "technologiesIcons": [
+        "Javascript",
+        "Html5",
+        "ReactJs",
+        "Nodedotjs",
+        "Express",
+        "Git"
+      ],
+      "linkToPage": "https://viradoctores.com/",
+      "linkToRepo": "https://github.com/pedro-leoni",
+      "linkToDemo": "",
+      "cardImg": "https://res.cloudinary.com/cloudpiolita/image/upload/v1687369665/portfolio/Vira/Frame_1_odty1z.png",
+      "imgsGalery": [
+        "https://res.cloudinary.com/cloudpiolita/image/upload/v1687369665/portfolio/Vira/Frame_1_odty1z.png"
+      ]
+    },
+    {
       "id": 2,
       "name": "Exmine",
       "shortDescription": "Ecommerce - Proyecto Final Académico (Soy Henry)",
@@ -140,38 +174,6 @@
       "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732166/portfolio/Login%20Challenge/login_xklxt5.png",
       "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732166/portfolio/Login%20Challenge/login3_laqdty.png",
       "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732165/portfolio/Login%20Challenge/login4_qhq3ey.png"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "To Do - NextJs",
-      "shortDescription": "SPA desarrollada completamente en NextJs.",
-      "description": "To-do app creada con Typescript y Next, con la idea de probar la opcion de integrar una rest api que nos ofrece este framework. Postgre en la db, primer deploy de db fuera de heroku",
-      "frontEndTech": ["React","NextJs","ChakraUI"],
-      "backEndTech": ["NodeJs", "NextJs"],
-      "dbAndORM": ["PostgreSQL"],
-      "otherTechs": [
-        "Git",
-        "Github"
-      ],
-      "technologiesIcons": [
-        "Typescript",
-        "Html5",
-        "ReactJs",
-        "Nextdotjs",
-        "Nodedotjs",
-        "Express",
-        "Postgresql",
-        "Git",
-        "Github"
-      ],
-      "linkToPage": "https://to-do-app-mu-five.vercel.app/",
-      "linkToRepo": "https://github.com/pedro-leoni/to-do-app",
-      "linkToDemo": "",
-      "cardImg": "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732617/portfolio/To-Do%20Next/todo_dr1gs1.png",
-      "imgsGalery": ["https://res.cloudinary.com/cloudpiolita/image/upload/v1662732617/portfolio/To-Do%20Next/todo_dr1gs1.png",
-      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732616/portfolio/To-Do%20Next/todo3_srnip4.png",
-      "https://res.cloudinary.com/cloudpiolita/image/upload/v1662732616/portfolio/To-Do%20Next/todo2_lar5zh.png"
       ]
     }
   ]
