@@ -19,12 +19,15 @@
         "Figma"
       ],
       "technologiesIcons": [
-        "Javascript",
+        "Typescript",
         "Html5",
         "ReactJs",
+        "Nextdotjs",
         "Nodedotjs",
         "Express",
-        "Git"
+        "Git",
+        "Mongodb",
+        "Sass"
       ],
       "linkToPage": "https://viradoctores.com/",
       "linkToRepo": "https://github.com/pedro-leoni",
