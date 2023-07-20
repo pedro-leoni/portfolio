@@ -20,7 +20,7 @@ const SobreMi = () => {
           Sobre Mí
         </Heading>
         <Text p={[5,10]} color="textColor" fontSize={["","2xl"]}>
-          Tengo 26 años y vivo en Mar del Plata, Argentina. Soy desarrollador web full stack hace casi 3 años y hace uno que me desenvuelvo como tal en Neuron Health.
+          Tengo 26 años y vivo en Mar del Plata, Argentina. Soy desarrollador web full stack hace 2 años y hace uno que me desenvuelvo como tal en Neuron Health.
           <br />
           <br />
           Me considero proactivo y autodidacta. Me caracteriza principalmente la curiosidad y la necesidad de explorar, lo que me lleva a encontrarme en un proceso de aprendizaje constante, haciendo foco en la resolucion de problemas.
